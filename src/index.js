@@ -22,7 +22,7 @@ const schema = [
 ];
 
 function generateSchema(schema) {
-  return schema.map(item => {
+  return schema.map((item) => {
     const { type, name, query } = item;
     let result = `import * as React from 'react' \n`;
 
